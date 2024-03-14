@@ -13,9 +13,9 @@ function Header() {
     return (
         <div className='flex items-center p-3'>
             <img src={logo} width={60} height={60} alt="logo" className=' rounded-full' />
-            <div className="flex mx-5 rounded-full bg-slate-200 p-2 w-full items-center dark:bg-[#e26959]">
+            <div className="flex mx-5 rounded-full bg-slate-200 p-2 w-full items-center dark:bg-[#76a8f75e]">
                 <HiOutlineSearch />
-                <input type="text" placeholder='Search Games' className='px-2 bg-transparent outline-none ' />
+                <input type="text" placeholder='Search Games' className='px-2 w-full bg-transparent outline-none ' />
             </div>
             <div >
                 {theme == 'light' ?

@@ -10,7 +10,7 @@ function App() {
 
   return (
     <ThemeContext.Provider value={{theme,setTheme}}>
-      <div className={`${theme} ${theme == 'dark' ? 'bg-black' : null} h-[100vh]`}>
+      <div className={`${theme} ${theme == 'dark' ? 'bg-black' : null} min-Fh-[100vh]`}>
         <Header />
         <Home />
       </div>
